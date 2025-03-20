@@ -1,0 +1,664 @@
+{
+    "trec-20211": {
+        "NCT00841555": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma of the spine, which is one of the target conditions for the clinical trial. However, the trial focuses on newly diagnosed cases, and this patient has already undergone radiation and chemotherapy, which may affect eligibility. The tumor location in the spine, not involving the brain stem or optic chiasm, aligns with the trial's criteria, but the prior treatments are a consideration.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as age and consent, but fails others like prior chemotherapy and radiation. The tumor location in the spine may also be a factor. Some eligibility criteria like bone marrow reserve and organ function are unknown, but the known failures impact eligibility.",
+            "eligibility_score_E": -50
+        },
+        "NCT00430911": {
+            "relevance_explanation": "The patient has an anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the tumor is located in the T-L spine, which is not supratentorial, and the patient is 45 years old, which is below the age requirement of 70 years or older for the trial. Despite these mismatches, the patient's condition is still relevant to the trial's focus on malignant astrocytomas.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient does not meet several key inclusion criteria, including age (45 years old vs. required 70+), tumor location (not supratentorial), and Karnofsky performance status (severe lower extremity weakness and urinary retention suggest a lower score). Additionally, the patient has received chemotherapy, which is an exclusion criterion. However, the patient is eligible for informed consent and has not received brain radiotherapy, which are positive factors. Overall, the patient is not eligible for the trial due to multiple unmet inclusion criteria and an exclusion criterion.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00004259": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma of the spine, which is a type of brain and central nervous system tumor. The clinical trial is specifically targeting patients with anaplastic astrocytoma or mixed gliomas, making the patient's condition highly relevant to the trial's target population. However, the trial excludes patients with spinal cord tumors, which the patient has, slightly reducing the overall relevance.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets several inclusion criteria such as having anaplastic astrocytoma, being over 18 years old, and having no active infection. However, the patient is ineligible for some criteria, including prior chemotherapy and radiation, and the presence of a spinal cord tumor, which is explicitly excluded by the trial. These factors significantly impact the patient's eligibility.",
+            "eligibility_score_E": -40
+        },
+        "NCT03633552": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the tumor is located in the spine, not the brain, and the patient is not newly diagnosed, which affects the relevance to the trial's focus on brain high-grade gliomas in newly diagnosed patients.",
+            "relevance_score_R": 50.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria (age, informed consent) and all exclusion criteria but fails the key inclusion criterion of being newly diagnosed with a brain tumor. This makes the patient ineligible for the trial.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT01479686": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of glioma, which is relevant to the trial's target condition. However, the tumor's location in the spinal cord and its unresectable nature, along with prior treatments, reduce the overall relevance to the trial focused on cerebral gliomas.",
+            "relevance_score_R": 40,
+            "eligibility_explanation": "The patient does not meet several inclusion criteria, including tumor location and resectability, and is excluded due to prior treatments and tumor location in an eloquent area. Thus, the patient is ineligible for the trial.",
+            "eligibility_score_E": -40
+        },
+        "NCT04541082": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on recurrent and rare primary central nervous system neoplasms, and the patient's condition is recurrent and unresectable, making it highly relevant. The patient's age (45 years) also meets the inclusion criteria for the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the first inclusion criterion due to age and diagnosis. However, several other inclusion criteria (e.g., measurable recurrent disease, KPS \u226570, washout periods, tumor specimen availability, organ function, swallowing ability, MRI tolerance, and COVID-19 vaccination status) are not confirmed or are unknown. The patient meets criterion 5 (no recent surgery) and all exclusion criteria do not apply. Despite some uncertainties, the patient is eligible for the trial based on the information provided.",
+            "eligibility_score_E": 20
+        },
+        "NCT02755987": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial is specifically designed for patients with anaplastic astrocytoma, making the patient highly relevant to the study. The patient's condition and treatment history align with the trial's objectives, indicating a strong connection.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient is not neurologically stable due to progressive lower extremity weakness and urinary retention, making them ineligible under inclusion criterion 0. Additionally, the patient has severe complications, making them ineligible under exclusion criterion 4. However, other criteria are either unknown or eligible, preventing the eligibility score from being as low as -R.",
+            "eligibility_score_E": -70
+        },
+        "NCT02796261": {
+            "relevance_explanation": "The patient has a biopsy-proven diagnosis of WHO grade 3 anaplastic astrocytoma (AA), which is the target condition of the clinical trial. The patient has undergone radiation and temozolomide chemotherapy, which aligns with the trial's focus on recurrent AA after such treatments. However, there is insufficient information regarding the timing of tumor progression, MRI details, and performance status, which are critical for determining full eligibility.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as biopsy-proven diagnosis and prior treatments with EBRT and temozolomide. However, several key criteria, including the timing of progression, MRI characteristics, and performance status, are unknown or not provided. This uncertainty prevents a definitive eligibility determination.",
+            "eligibility_score_E": 50
+        },
+        "NCT00114140": {
+            "relevance_explanation": "The patient has an anaplastic astrocytoma, which is a type of glioma, making the clinical trial relevant. However, the tumor is located in the spinal cord, which is outside the trial's focus on supratentorial gliomas, reducing the overall relevance.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient is ineligible due to the spinal cord tumor location, prior chemotherapy, and high-grade tumor, which are excluded by the trial's criteria.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00033280": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a type of brain/CNS tumor, aligning with the trial's target conditions. However, the tumor's location in the spine and prior treatments reduce the relevance since the trial focuses on supratentorial oligodendrogliomas.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient is ineligible due to tumor type (astrocytoma vs. oligodendroglioma) and spinal location, which are key exclusion criteria. Despite meeting some criteria like age, the major exclusions result in ineligibility.",
+            "eligibility_score_E": -60
+        },
+        "NCT01347307": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma of the spine, which is a type of spinal tumor. The clinical trial focuses on stereotactic body radiotherapy for various spinal tumors, including metastases and benign tumors. Although the patient's tumor is malignant and not explicitly listed in the target conditions, the trial's focus on spinal tumors makes it somewhat relevant. However, the patient's tumor type and the trial's specific target conditions are not a perfect match, reducing the overall relevance.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as age and histologic diagnosis, but fails others, such as having a benign tumor or vertebral/paraspinal metastases. The patient also meets some exclusion criteria, such as rapidly progressive spinal cord compromise and cord compression, which make them ineligible. Despite some unknown criteria, the patient is largely ineligible due to failed and exclusionary criteria.",
+            "eligibility_score_E": -20.0
+        },
+        "NCT03668522": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma of the spine, which is a type of spinal tumor. The clinical trial focuses on spinal glioma, specifically examining the H3F3AK27M mutation and its impact on TMZ chemoradiotherapy. While the patient's condition is relevant to the trial's target population, the trial seems to focus on untreated, primary spinal gliomas, and this patient has already undergone radiation and chemotherapy, which may affect their eligibility.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient does not meet the inclusion criterion as they did not have surgical treatment and pathological confirmation in the department, and they have had prior treatments. Additionally, the patient is excluded due to the tumor being recurrent or having been treated before operation.",
+            "eligibility_score_E": -70
+        },
+        "NCT01847235": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a type of brain tumor, and has undergone radiation and chemotherapy. The clinical trial focuses on anaplastic oligodendroglioma and oligoastrocytoma, which are related but distinct tumor types. The patient's condition and treatment history share some relevance with the trial's objectives, particularly regarding progression after treatment.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as age, progression after therapy, and measurable mass lesion. However, the patient does not meet the primary inclusion criterion of having anaplastic oligodendroglioma or oligoastrocytoma. Additionally, the patient is excluded due to prior temozolomide treatment.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT04197934": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on treating glioblastoma, anaplastic astrocytoma, or non-small cell lung cancer with CNS metastases. The patient's tumor is unresectable and has shown progression, which aligns with the trial's objectives. However, the patient's IDH status is not specified, which is a key criterion for the trial. Despite this, the tumor type and progression make the patient highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as having been treated with radiation and temozolomide, having radiographic progression, and providing informed consent. However, the patient's IDH status is not specified, which is a critical factor for eligibility. Additionally, the patient is on high-dose steroids, which may exclude them from participation. Some other criteria, such as measurable disease and performance status, are not specified, leading to uncertainty. Overall, while the patient is partially eligible, the missing information and potential exclusion due to steroid use result in a lower eligibility score.",
+            "eligibility_score_E": -30
+        },
+        "NCT01502241": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the tumor is located in the T-L spine, which is not supratentorial, and the patient is 45 years old, which is below the age requirement of >65 for the trial. Despite these mismatches, the patient's condition is still relevant to the trial's target disease.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for supratentorial tumor location and age >65. Additionally, the patient has had prior chemotherapy, making them ineligible. However, the patient meets some inclusion criteria such as providing consent and not having brain radiotherapy. The patient also does not have any of the exclusion criteria. Therefore, the eligibility score is negative due to not meeting key inclusion criteria, but it is not the most negative possible as some criteria are met.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT02099487": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a type of high-grade glioma, making the clinical trial relevant. However, the patient is 45 years old, while the trial targets elderly patients (\u226570 years). The patient has undergone prior radiation therapy, which is an exclusion criterion. Despite these factors, the patient's condition aligns with the trial's target disease.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria (histologically confirmed HGG, anaplastic astrocytoma, and informed consent) but fails others (age <70 years, prior radiation therapy). Some criteria are uncertain (KPS, survival, organ function). The patient is ineligible due to prior radiation therapy, which is an exclusion criterion.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT00100802": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma of the spine, which is one of the target conditions for the clinical trial. The trial focuses on newly diagnosed gliomas, and the patient's condition aligns with this focus. The tumor's location in the T-L spine and the patient's history of radiation and chemotherapy further support the relevance to the trial's objectives.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria such as histologically confirmed diagnosis, tumor location, and no evidence of neuraxis dissemination. However, some criteria like post-operative MRI and performance status are not met, and there are missing lab results. Despite these, the patient is still a potential candidate for the trial.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT01721577": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on recurrent malignant astrocytomas, and the patient's tumor is recurrent after prior treatments including radiation and chemotherapy. This makes the trial highly relevant to the patient's condition.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "The patient meets several key inclusion criteria: informed consent, age, diagnosis of anaplastic astrocytoma, and recurrent tumor after failed treatments. However, some inclusion criteria such as performance status, expected survival, washout periods, MRI ability, and organ function are not provided, leading to unknown eligibility for these aspects. All exclusion criteria are met as the patient does not have any of the listed conditions or situations that would exclude him.",
+            "eligibility_score_E": 70.0
+        },
+        "NCT00003375": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a type of brain and central nervous system tumor, aligning with the trial's target conditions. However, the trial focuses on low-grade gliomas, and the patient's condition is more severe, reducing relevance.",
+            "relevance_score_R": 30,
+            "eligibility_explanation": "The patient is ineligible as the trial excludes anaplastic astrocytoma and spinal cord tumors. Both criteria exclude the patient, leading to a negative eligibility score.",
+            "eligibility_score_E": -30
+        },
+        "NCT00028795": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is related to the trial's target conditions (Brain and Central Nervous System Tumors). However, the trial is specifically for children, and the patient is 45 years old, which is above the age limit. Additionally, the patient's tumor is recurrent and located in the spine, whereas the trial focuses on newly diagnosed tumors in children.",
+            "relevance_score_R": 30.0,
+            "eligibility_explanation": "The patient is ineligible for the trial because they are over the age limit, have a recurrent tumor, and the tumor location does not match the trial's criteria. The trial requires newly diagnosed tumors in children, which the patient does not meet.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00606008": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is recurrent, and the patient has undergone prior treatments such as radiation and chemotherapy, which aligns with the trial's focus on recurrent cases. The patient's symptoms and tumor location are relevant to the trial's objectives.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including histologically confirmed recurrent anaplastic astrocytoma, age over 18, measurable disease, informed consent, and prior treatments. However, there are insufficient data on organ function, blood counts, and performance status. Additionally, the patient has spinal cord compression, which is an exclusion criterion, and has received three or more salvage regimens, another exclusion.",
+            "eligibility_score_E": -90
+        },
+        "NCT00360945": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a grade III tumor, which is relevant to the clinical trial targeting malignant gliomas. However, the patient's age and prior treatments may affect eligibility.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets some inclusion criteria like having anaplastic astrocytoma but is ineligible due to prior temozolomide treatment. Some criteria are unknown, affecting full eligibility.",
+            "eligibility_score_E": -40
+        },
+        "NCT00004068": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma of the spine, which is a type of brain and central nervous system tumor. The clinical trial is focused on treating children with newly diagnosed brain tumors, specifically targeting brain and central nervous system tumors. While the patient's condition is related to the target condition of the trial, the patient is 45 years old, which is outside the 3-21 age range specified in the trial. Additionally, the patient has received prior chemotherapy and radiation therapy, which may affect eligibility. However, the tumor type (anaplastic astrocytoma) is relevant to the trial's focus on malignant gliomas.",
+            "relevance_score_R": 40.0,
+            "eligibility_explanation": "The patient is ineligible for the trial due to age (45 years old, outside the 3-21 range) and prior chemotherapy and radiation therapy, which are not allowed by the trial. While the tumor type is relevant, the patient does not meet the inclusion criteria for newly diagnosed brain tumors or the specified age range. Some eligibility criteria, such as performance status and certain lab parameters, are unknown, but the known ineligibilities are sufficient to determine ineligibility.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT01466686": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on high-grade gliomas, including anaplastic astrocytoma. The patient's history of radiation therapy and temozolomide treatment aligns with the trial's background. However, the tumor location in the spine and the lack of surgical resection are factors that may affect relevance.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as diagnosis of anaplastic astrocytoma, age >18, measurable disease, ability to provide consent, and ability to receive MRI. However, the patient does not meet several key inclusion criteria including recurrent GBM or anaplastic astrocytoma, prior surgical resection, time since radiation therapy, time since temozolomide completion, ECOG performance status, normal organ function, and the most recent pathology being glioblastoma. Therefore, the patient is not eligible for the trial.",
+            "eligibility_score_E": -85.0
+        },
+        "NCT00002569": {
+            "relevance_explanation": "The patient has an anaplastic astrocytoma of the spine, which is a type of brain and central nervous system tumor. The clinical trial focuses on anaplastic oligodendroglioma, which is a specific type of brain tumor. While both are high-grade gliomas, they are distinct tumor types. The patient's tumor location in the spine and the trial's focus on supratentorial oligodendroglioma reduce the relevance.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient is ineligible for several key inclusion criteria, including the tumor type (anaplastic astrocytoma vs. oligodendroglioma) and tumor location (spine vs. supratentorial). Additionally, the patient has had prior chemotherapy and radiation, which may exclude them from the trial. However, the patient meets some criteria such as age and no other malignancies.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00003564": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on recurrent primary malignant gliomas, and the patient's condition is recurrent and progressive, making it highly relevant. The patient's history of radiation and chemotherapy further aligns with the trial's target population.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets all the inclusion criteria, including the specific disease type, age, and prior treatments. However, the patient's eligibility is slightly reduced because the trial requires evidence of measurably enhancing residual disease, which is not explicitly confirmed in the patient note.",
+            "eligibility_score_E": 85
+        },
+        "NCT00717210": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on treating anaplastic gliomas, and the patient's condition aligns with this focus. The patient's history of radiation and chemotherapy is relevant to the trial's treatment approaches, although the trial is for newly diagnosed patients. The patient's age and ability to provide informed consent also contribute to the relevance.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as providing informed consent, having a confirmed diagnosis of anaplastic astrocytoma, and being over 18 years old. However, the patient has undergone prior chemotherapy and radiation therapy, which makes them ineligible according to inclusion criterion 4. Additionally, the patient has serious medical and neurological comorbidities, making them ineligible under exclusion criterion 0. Some criteria like Karnofsky performance status and lab results are unknown, but the known ineligibilities outweigh these uncertainties.",
+            "eligibility_score_E": -60
+        },
+        "NCT01514201": {
+            "relevance_explanation": "The patient has an anaplastic astrocytoma located in the T-L spine, which is a type of tumor included in the clinical trial's target conditions. However, the trial specifically focuses on diffuse pontine gliomas in the brainstem, and the patient's tumor is not located in the pontine area. Therefore, while there is some relevance due to the tumor type, the location makes it less relevant.",
+            "relevance_score_R": 30,
+            "eligibility_explanation": "The patient is ineligible for the trial because the tumor is not located in the pontine area, which is a key inclusion criterion. Additionally, the patient has received prior radiation therapy and chemotherapy, which violates another inclusion criterion requiring no prior therapy other than surgery and/or steroids. However, the patient meets other inclusion criteria such as performance status and ability to provide informed consent.",
+            "eligibility_score_E": -20
+        },
+        "NCT00431561": {
+            "relevance_explanation": "The patient has a histopathologically confirmed diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is recurrent and unresectable, which aligns with the trial's focus on recurrent or refractory high-grade glioma. However, the tumor's location in the T-L spine (not supratentorial) may affect eligibility.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as the confirmed diagnosis and eligibility for TMZ treatment. However, the tumor's location in the T-L spine (not supratentorial) and the patient's history of three chemotherapy regimens make them ineligible. Additionally, the patient is on high-dose steroids and has a mass effect on MRI, which are exclusion criteria. Some criteria, such as adequate organ function and KPS score, are not confirmed.",
+            "eligibility_score_E": -60
+        },
+        "NCT00335075": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is progressing, and the patient has a history of radiation and chemotherapy, which aligns with the trial's focus on recurrent cases. The patient's age and willingness to provide informed consent further support the relevance to the trial.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets several key inclusion criteria, including confirmed diagnosis, evidence of tumor progression, age, and informed consent. However, some criteria such as Karnofsky performance status, blood counts, renal and liver function, and life expectancy are not provided, leading to uncertainty. Exclusion criteria are mostly met, but there is uncertainty regarding recent chemotherapy and radiation therapy timing.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT00783393": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma of the spine, which is relevant to the clinical trial targeting anaplastic astrocytoma. However, the tumor location (T-L spine) does not match the trial's specific focus on the tentorium. The patient has undergone radiation and chemotherapy, which aligns with the trial's context of first relapse.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as MRI-confirmed recurrence, histologically confirmed diagnosis, recent MRI, age, and consent. However, the tumor location does not meet one inclusion criterion, and the patient was previously treated with temozolomide, which is an exclusion criterion. Despite meeting many criteria, the exclusion based on prior temozolomide treatment affects eligibility.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT01765088": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the trial focuses on newly diagnosed high-grade gliomas, and the patient's condition is not newly diagnosed as he has already undergone radiation and chemotherapy. This affects the overall relevance but still maintains a strong connection due to the condition type.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria like age and consent, but fails the newly diagnosed requirement. Some criteria are uncertain, but no exclusions apply. This results in partial eligibility.",
+            "eligibility_score_E": 40.0
+        },
+        "NCT00473408": {
+            "relevance_explanation": "The patient has a histologically confirmed anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on high-grade astrocytomas, and the patient's condition aligns with this focus. The tumor's location and the treatments the patient has undergone (radiation and temozolomide) are also relevant to the trial's objectives. However, some specific details such as tumor size and recent radiology studies are not provided, which could affect certain eligibility criteria but do not negate the overall relevance.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as having a confirmed anaplastic astrocytoma, being over 18 years old, and providing informed consent. However, there are some unknowns, such as performance status, tumor size, and lab results, which could affect eligibility. Additionally, the patient has received prior chemotherapy, which makes them ineligible according to one of the exclusion criteria. Despite some unknowns, the patient's eligibility is negatively impacted by the prior chemotherapy.",
+            "eligibility_score_E": -45
+        },
+        "NCT03581292": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a target condition for the clinical trial. The trial focuses on newly diagnosed malignant glioma without H3 K27M or BRAFV600 mutations, and the patient's condition aligns with this. However, the patient's tumor is located in the spinal cord, which is an exclusion criterion. Despite this, the overall relevance is high because the primary condition matches the trial's focus.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as having newly diagnosed anaplastic astrocytoma and histological verification. However, the patient is ineligible due to exclusion criteria: the tumor location in the spinal cord and prior tumor-directed therapies. These exclusions outweigh the met inclusion criteria, leading to ineligibility.",
+            "eligibility_score_E": -80
+        },
+        "NCT03906448": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma of the spine, which is relevant to the clinical trial targeting Grade II/III astrocytoma. The tumor's location in the T-L spine and the patient's treatment history with radiation and temozolomide align with the trial's focus on adjuvant temozolomide and TTFields. The patient's condition and treatment history make them highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including providing informed consent, complying with study procedures, histologic confirmation of Grade II/III astrocytoma, and completing standard chemoradiation. However, the patient has been treated with Avastin (an anti-angiogenic agent), which is an exclusion criterion. Additionally, the patient shows signs of progressive disease, which is another exclusion criterion. These factors make the patient ineligible for the trial.",
+            "eligibility_score_E": -60
+        },
+        "NCT00052624": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is relevant to the trial's target condition. However, the patient's age and tumor location are outside the trial's specified range and location, reducing relevance.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets one inclusion criterion (prior treatment) but fails others (age, tumor location, and potential anesthesia issues), leading to ineligibility.",
+            "eligibility_score_E": -40
+        },
+        "NCT00734682": {
+            "relevance_explanation": "The patient has a histologically proven anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is recurrent and has progressed after prior radiation and chemotherapy, making the patient relevant for the trial investigating a new formulation of CPT-11 for recurrent high-grade gliomas.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including histologically proven anaplastic astrocytoma, age >18, and prior therapy. However, some criteria such as Karnofsky performance status and adequate organ function are not documented. The patient is excluded due to prior therapy with CPT-11, but the trial's focus on a different formulation may still consider eligibility. UGT1A1*28 status is unknown, which is a requirement for eligibility.",
+            "eligibility_score_E": 70
+        },
+        "NCT00004017": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is unresectable and recurrent, aligning with the trial's focus on treating such cases. However, the tumor's location in the spine may not be explicitly covered by the trial, which focuses on brain and CNS tumors. Despite this, the overall relevance is high due to the matching condition.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including having recurrent anaplastic astrocytoma, being over 18, and not being pregnant. However, several criteria such as tumor volume, recent MRI, performance status, and lab results are unknown, leading to uncertainty in full eligibility. The eligibility is partially met but not fully confirmed.",
+            "eligibility_score_E": 40
+        },
+        "NCT00006024": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma of the spine, which is a type of high-grade malignant glioma, making them relevant to the clinical trial. However, the tumor's location in the spine may affect their eligibility.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets some inclusion criteria like having anaplastic astrocytoma but fails others, such as the tumor location in the spine and prior treatments, affecting full eligibility.",
+            "eligibility_score_E": 20
+        },
+        "NCT00004868": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is relevant to the clinical trial targeting astrocytoma. However, the tumor location in the spine does not match the trial's focus on supratentorial gliomas, reducing relevance.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets some criteria like age and failed radiation but fails on tumor location and prior chemotherapy regimens, leading to ineligibility.",
+            "eligibility_score_E": -40
+        },
+        "NCT03528642": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the patient's IDH mutation status is not specified, which is a key inclusion criterion for the trial. The patient's tumor is located in the spine, which is relevant to the trial's focus on anaplastic astrocytoma. The patient has undergone radiation and chemotherapy, which are relevant to the trial's treatment approach.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as age and willingness to provide informed consent. However, the patient has received prior chemotherapy (temozolomide) which is an exclusion criterion. Additionally, the patient has spinal involvement with the tumor, which is another exclusion criterion. The IDH mutation status is not specified, making it uncertain whether the patient meets this key inclusion criterion.",
+            "eligibility_score_E": -80
+        },
+        "NCT00978458": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a high-grade glioma, while the clinical trial focuses on low-grade gliomas. However, the trial involves temozolomide, which the patient has already received, indicating some relevance.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient does not meet key inclusion criteria such as tumor type and location, making him ineligible despite some overlapping treatments.",
+            "eligibility_score_E": -40
+        },
+        "NCT01837862": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the patient is 45 years old, which exceeds the upper age limit of 21 years specified in the trial. This age discrepancy significantly impacts the relevance, though the condition itself is a match.",
+            "relevance_score_R": 30,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including diagnosis of anaplastic astrocytoma, biopsy-proven tumor, and ability to provide informed consent. However, the patient's age of 45 years exceeds the upper limit of 21 years, making them ineligible for the trial. All other exclusion criteria do not apply or lack relevant information.",
+            "eligibility_score_E": -30
+        },
+        "NCT00761280": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The patient's history of radiation and chemotherapy aligns with the trial's focus on recurrent or refractory disease. However, the tumor location in the T-L spine (infratentorial) does not match the trial's requirement of supratentorial localization. Despite this, the patient's condition and treatment history make them somewhat relevant to the trial.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets several inclusion criteria such as providing informed consent, being of appropriate age, having a diagnosis of anaplastic astrocytoma, and having recurrent disease. However, the patient fails some key inclusion criteria: the tumor is located in the T-L spine (infratentorial) rather than supratentorially, the patient has received more than one chemotherapy regimen, and several other criteria such as measurable lesion size, corticosteroid dose, and performance status are not specified. These issues make the patient ineligible for the trial.",
+            "eligibility_score_E": -60
+        },
+        "NCT00062504": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on recurrent high-grade gliomas, and the patient's condition is recurrent and progressive, making it relevant. However, the tumor is located in the spine, which is not explicitly mentioned in the trial's target conditions, slightly reducing the relevance.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the first inclusion criterion as they have anaplastic astrocytoma. However, there is no mention of a recent MRI/CT scan within 14 days, which is required for eligibility. The patient has not undergone recent surgery, making some criteria not applicable. The patient provided informed consent, which is a positive factor. However, the patient is currently using other chemotherapeutics (temozolomide and CPT-11 with Avastin), which violates one of the exclusion criteria, making them ineligible.",
+            "eligibility_score_E": -90
+        },
+        "NCT02300506": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of malignant glioma, which is relevant to the clinical trial targeting high-grade gliomas.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient's tumor is located in the spine, which is not applicable to Gliadel's indications for intracranial high-grade glioma, making the patient ineligible.",
+            "eligibility_score_E": -80
+        },
+        "NCT00884416": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the patient has already received treatment, including radiation and chemotherapy, which may affect eligibility. The trial focuses on newly diagnosed patients, but the patient's condition and history make them somewhat relevant.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient does not meet the inclusion criteria for newly diagnosed malignant glioma and has received prior treatment, which excludes them. Additionally, the patient's hypertension may interfere with treatment. However, the patient meets some inclusion criteria such as age and informed consent.",
+            "eligibility_score_E": -70
+        },
+        "NCT00504660": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is recurrent or progressive, and the patient has undergone prior treatments including radiation and chemotherapy, aligning with the trial's focus on patients who have failed previous treatments. This makes the patient highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including providing informed consent, having a confirmed diagnosis of anaplastic astrocytoma, showing evidence of tumor progression, being over 12 years old, and having no history of other cancers. However, the patient has hypertension, which is listed as an exclusion criterion. Additionally, some inclusion criteria such as recent MRI timing, Karnofsky performance status, recovery from prior therapy, and lab results are unknown, but the presence of hypertension makes the patient ineligible.",
+            "eligibility_score_E": -30
+        },
+        "NCT00002620": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is the target condition of the clinical trial. The trial focuses on radiation therapy, which the patient has already undergone. However, the tumor is located in the spine, not the brain, introducing some irrelevance. Despite this, the condition aligns with the trial's objectives, making the patient somewhat relevant.",
+            "relevance_score_R": 80,
+            "eligibility_explanation": "The patient meets the histological confirmation for anaplastic astrocytoma but lacks recent biopsy timing and lab results. However, the patient received anticancer drugs and steroids, violating the prior therapy criteria, rendering them ineligible.",
+            "eligibility_score_E": -80
+        },
+        "NCT03603405": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on newly diagnosed glioblastoma or anaplastic astrocytoma, and the patient's condition is confirmed by biopsy. The tumor's location in the spine and the patient's history of radiation and chemotherapy are relevant to the trial's treatment approach, which includes radiotherapy and chemotherapy. The patient's willingness to provide informed consent also aligns with the trial's requirements.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as having a biopsy-proven anaplastic astrocytoma and providing informed consent. However, several inclusion criteria are unknown, such as life expectancy, ECOG performance status, and organ function. Additionally, the patient may be ineligible due to recent chemotherapy and radiation treatment, which could violate the exclusion criteria regarding prior treatments. The patient is eligible for some criteria but not all, leading to a moderate eligibility score.",
+            "eligibility_score_E": 30
+        },
+        "NCT03593993": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the trial specifically focuses on BRAF-V600E mutated gliomas, and there is no mention of such a mutation in the patient's note. Therefore, while there is some relevance due to the tumor type, the lack of information about the BRAF-V600E mutation reduces the overall relevance.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets one inclusion criterion (history of anaplastic astrocytoma) and provides informed consent. However, the patient does not meet the other inclusion criteria, such as having a BRAF-V600 mutation, taking dabrafenib or trametinib, or undergoing surgery. Additionally, the patient is receiving other chemotherapeutic agents, which makes them ineligible according to the exclusion criteria. Therefore, the patient is not eligible for the trial.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT00720564": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a high-grade glioma, which matches the trial's target condition. However, the trial is for newly diagnosed patients, and the patient has had prior treatments.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets two inclusion criteria but fails one due to prior treatments, making him ineligible despite his relevant condition.",
+            "eligibility_score_E": -60
+        },
+        "NCT04254419": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma of the spine, which is a type of high-grade glioma. The clinical trial targets high-grade gliomas, specifically supratentorial ones. Although the patient's condition is related to the target condition of the trial, the tumor location (spine) does not match the trial's focus on supratentorial tumors. Therefore, the relevance is moderate.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient is ineligible for the trial because the tumor is not supratentorial, and the patient is outside the specified age range (3-18 years). Additionally, the patient is on high-dose steroids, which is an exclusion criterion. Other criteria are either unknown or not applicable.",
+            "eligibility_score_E": -60
+        },
+        "NCT00114309": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the tumor is located in the T-L spine, which is infratentorial, whereas the trial focuses on supratentorial tumors. This geographical mismatch reduces the relevance. Despite this, the patient's condition is severe and progressive, aligning with the trial's focus on recurrent high-grade gliomas.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient is ineligible for several key inclusion criteria: the tumor is infratentorial (not supratentorial), it is unresectable, and the patient is currently on chemotherapy. While some criteria like age and consent are met, the failures in tumor location and resectability, along with ongoing chemotherapy, make the patient ineligible. The exclusion criteria do not further exclude the patient, but the inclusion criteria issues are significant.",
+            "eligibility_score_E": -50
+        },
+        "NCT01861990": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the patient is 45 years old, while the trial focuses on pediatric cases (ages 1-21 years at first diagnosis). Despite this, the tumor type aligns with the trial's objectives, making the patient somewhat relevant but not fully aligned due to age.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets the first inclusion criterion by providing informed consent and has a recurrent or progressive brain tumor with MRI evidence. However, the patient is 45 years old, which is outside the age range for inclusion. Additionally, there is no information on the patient's performance score, and the patient has a history of temozolomide use, which is an exclusion criterion. Therefore, the patient is ineligible for the trial.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT02022644": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a type of high-grade glioma, and has shown tumor progression. These factors align with the clinical trial's focus on recurrent high-grade glioma. However, the tumor's location in the T-L spine (infratentorial) does not match the trial's requirement for supratentorial tumors, reducing the overall relevance.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as having recurrent high-grade glioma and providing informed consent. However, the tumor's infratentorial location, uncertain MRI timing, lack of steroid stability confirmation, missing Karnofsky status, and unclear recovery from prior therapy are significant eligibility issues. These factors make the patient ineligible despite some alignment with the trial's criteria.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT03514069": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the tumor is located in the spine (infratentorial), whereas the trial focuses on supratentorial high-grade gliomas. This makes the patient less relevant but not entirely irrelevant.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient is ineligible for the trial due to the infratentorial location of the tumor and exclusion criteria such as other serious diseases and ongoing cancer treatments. However, the patient meets some inclusion criteria like providing informed consent and having no other cancers.",
+            "eligibility_score_E": -40.0
+        },
+        "NCT00968240": {
+            "relevance_explanation": "The patient has a documented histologic diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is located in the T-L spine, which is a relevant location for the trial's focus on brain tumors. The patient's age and gender are appropriate for the trial, and the patient has undergone relevant treatments such as radiation and chemotherapy, which align with the trial's target population.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including age, diagnosis, confirmed tumor site, and informed consent. However, the patient fails some criteria such as Karnofsky performance status, recent radiation and chemotherapy, and lack of lab parameters. Despite these failures, the patient's overall eligibility is still considered due to the alignment with the trial's target condition and some passed criteria.",
+            "eligibility_score_E": -30
+        },
+        "NCT00526812": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on recurrent high-grade gliomas, and the patient's history of unresectable anaplastic astrocytoma with progression despite prior treatments (radiation and chemotherapy) aligns with the trial's objectives. The patient's condition and treatment history make him highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including the histologically confirmed anaplastic astrocytoma and evidence of progression. However, the patient does not meet inclusion criterion 3 (surgical resection at least 2 weeks prior to enrollment) as the tumor is unresectable. Additionally, the patient has severe lower extremity weakness, urinary retention, hypertension, and chronic pain, which are considered uncontrolled medical conditions and make him ineligible under exclusion criterion 2. Other criteria such as steroid dose stability, KPS, lab parameters, and life expectancy are unknown, but the presence of uncontrolled medical conditions makes the patient ineligible overall.",
+            "eligibility_score_E": -60
+        },
+        "NCT03662906": {
+            "relevance_explanation": "The patient has chronic urinary retention due to a lower motor neuron lesion caused by a spinal tumor, which aligns with the clinical trial's focus on treating chronic urinary retention secondary to lower motor neuron lesions. The trial's target condition and the patient's condition are highly relevant.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as having chronic urinary retention due to lower motor neuron damage, being within the age range, using an indwelling catheter, and consenting to participate. However, the patient's urinary retention is due to a thoracic spinal cord lesion, which is an exclusion criterion. Additionally, some inclusion criteria like postvoid residual volume and bladder contractile index are unknown. Therefore, the patient is ineligible for the trial.",
+            "eligibility_score_E": -90
+        },
+        "NCT04105374": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the trial primarily focuses on glioblastoma, and the patient's tumor is located in the spine, which is not the typical location for the conditions targeted in the trial. Despite this, the trial allows for patients with anaplastic astrocytoma, making the patient somewhat relevant but not a perfect match.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient is eligible under inclusion criterion 1 as anaplastic astrocytoma is allowed, and the patient will provide informed consent (criterion 18). However, the patient does not meet inclusion criterion 0 (diagnosis of glioblastoma) and criterion 2 (no prior chemotherapy or radiation). Several other criteria are unknown due to missing information, leading to an uncertain eligibility status. The patient meets all exclusion criteria.",
+            "eligibility_score_E": 0.0
+        },
+        "NCT00005951": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a type of primary malignant glioma. The clinical trial is focused on treating recurrent primary malignant glioma, making the patient's condition highly relevant to the trial's target population. The patient's tumor location in the spinal cord and history of radiation and chemotherapy further align with the trial's objectives.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets several key inclusion criteria such as having anaplastic astrocytoma, measurable disease, and being over 18 years old. However, the patient is not neurologically stable, has had multiple prior therapies, and some eligibility criteria like performance status and lab results are unknown. These factors affect the patient's eligibility but do not completely exclude them.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT00253487": {
+            "relevance_explanation": "The patient has a high-grade glioma (anaplastic astrocytoma), which aligns with the clinical trial's focus on gliomas. However, the tumor's location in the spine and prior treatments may affect eligibility.",
+            "relevance_score_R": 60,
+            "eligibility_explanation": "The patient meets some inclusion criteria but is excluded due to spinal tumor location and prior therapies, making him ineligible.",
+            "eligibility_score_E": -60
+        },
+        "NCT00003176": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. However, the patient has received prior radiation and chemotherapy, which may affect eligibility.",
+            "relevance_score_R": 70,
+            "eligibility_explanation": "The patient is ineligible due to prior radiation and chemotherapy, which are not allowed by the trial's inclusion criteria.",
+            "eligibility_score_E": -70
+        },
+        "NCT04211974": {
+            "relevance_explanation": "The patient has a histologically confirmed anaplastic astrocytoma of the spine, which is the target condition of the clinical trial. The tumor's location in the spinal cord and the histological confirmation make the patient highly relevant to the trial's objectives.",
+            "relevance_score_R": 95,
+            "eligibility_explanation": "The patient meets the inclusion criterion of having a histologically confirmed primary spinal cord astrocytoma. None of the exclusion criteria apply, as the patient does not have another spinal cord tumor, there is no mention of metastatic astrocytoma, and a tumor sample was obtained via biopsy.",
+            "eligibility_score_E": 95
+        },
+        "NCT00003470": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is the target condition of the clinical trial. The patient has undergone standard therapies (radiation, temozolomide, CPT-11 with Avastin) without success, indicating a need for alternative treatments like Antineoplaston therapy. The tumor's location in the spine and its unresectable nature further align with the trial's focus on progressive or recurrent tumors. However, some details such as recent MRI results, tumor size, and specific performance metrics are not provided, which could affect eligibility but do not diminish the overall relevance.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "The patient meets several key eligibility criteria, including the confirmed diagnosis of anaplastic astrocytoma, age over 18, and evidence of progressive disease after standard therapies. However, several criteria are not met or lack necessary information: no recent MRI within two weeks, tumor size not specified, Karnofsky status and life expectancy not provided, and some laboratory parameters (WBC, platelets, hepatic, and renal function) are not mentioned. Additionally, the patient's hypertension and steroid use could pose concerns. These factors reduce the patient's eligibility despite the overall relevance to the trial.",
+            "eligibility_score_E": -30
+        },
+        "NCT00003621": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which aligns with the clinical trial's target condition. However, the patient has undergone prior radiation and chemotherapy, which may affect their eligibility as the trial focuses on newly diagnosed patients. The tumor's location and symptoms are relevant to the trial's objectives.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "The patient meets the age criterion but fails the 'newly diagnosed' requirement due to prior treatments. Recent chemotherapy and radiation also violate the trial's 5-year requirement, making the patient ineligible.",
+            "eligibility_score_E": -85
+        },
+        "NCT00430872": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma involving the spinal cord, which directly aligns with the clinical trial's focus on spinal cord tumors. The trial aims to assess symptom severity, and the patient's symptoms such as lower extremity weakness and urinary retention are relevant to this objective. Additionally, the patient's age and ability to consent further support the relevance.",
+            "relevance_score_R": 95,
+            "eligibility_explanation": "The patient meets all inclusion criteria: diagnosis of a spinal cord tumor, age over 18, and ability to speak English. No exclusion criteria apply, as there's no evidence of cognitive dysfunction and the patient is an adult. Thus, the patient is fully eligible for the trial.",
+            "eligibility_score_E": 95
+        },
+        "NCT03224104": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on elderly or relapsed patients, and the patient has a history of radiation and chemotherapy, indicating a relapse scenario. Therefore, the patient is relevant to the trial.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as having anaplastic astrocytoma and providing informed consent. However, the patient fails several criteria, including age (<65 years), prior radiation therapy, and uncontrolled hypertension. Some criteria are uncertain due to missing information, but the fails outweigh the passes, leading to ineligibility.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT00003537": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is the target condition of the clinical trial. The tumor is unresectable and has been treated with radiation and chemotherapy, aligning with the trial's focus on adults with this condition.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several key inclusion criteria, including confirmed diagnosis, biopsy, and age. However, some criteria like recent MRI, Karnofsky score, and certain lab results are not provided, and the patient has undergone myelosuppressive chemotherapy, which may affect eligibility.",
+            "eligibility_score_E": 70
+        },
+        "NCT02022384": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on immunophenotyping in patients with malignant gliomas, which aligns with the patient's condition. The patient's age and medical history are relevant to the study's objectives.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the inclusion criteria for having anaplastic astrocytoma and being of legal age. However, the patient has already completed chemoradiation and chemotherapy, which may not align with the trial's requirement for planned chemoradiation and adjuvant chemotherapy. All exclusion criteria are met as there is no information suggesting any exclusions apply.",
+            "eligibility_score_E": 70
+        },
+        "NCT00080054": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is a type of malignant glioma targeted by the clinical trial. The trial involves temozolomide, a drug the patient has already been treated with, indicating relevance to the study's focus.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the age and diagnosis criteria and has provided informed consent. However, the ECOG performance status is not provided, making the patient ineligible based on the trial's requirements.",
+            "eligibility_score_E": 60
+        },
+        "NCT00575887": {
+            "relevance_explanation": "The patient has a high-grade glioma (anaplastic astrocytoma) and has undergone standard treatments including temozolomide, which aligns with the trial's focus on recurrent or progressive high-grade glioma. The patient's condition and treatment history make them highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria: age >18, histopathological diagnosis of high-grade glioma, progression after standard temozolomide, and willingness to participate. However, the Karnofsky Performance Status and adequate organ function are not specified, leading to some uncertainty. No exclusion criteria apply.",
+            "eligibility_score_E": 70
+        },
+        "NCT04047303": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is progressive and unresectable, and the patient has undergone radiation and chemotherapy, which aligns with the trial's focus on patients who have failed standard treatments. However, the trial requires candidates for surgical resection, which the patient is not eligible for due to the unresectable nature of the tumor.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as age, diagnosis, and prior treatments, but fails others like being a candidate for surgical resection and having resolved toxicities to Grade 1. The patient's severe lower extremity weakness and urinary retention likely exceed Grade 1 toxicity, making them ineligible. Additionally, several other criteria like performance status, lab values, and contraception are not met or provided.",
+            "eligibility_score_E": -80
+        },
+        "NCT01386710": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The patient's tumor is located in the T-L spine and has been treated with radiation and chemotherapy, indicating a relapsed or refractory status. However, the trial focuses on cerebral tumors, and the patient's tumor is in the spinal cord, which may affect relevance.",
+            "relevance_score_R": 80.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as age and diagnosis but lacks information on tumor size and performance status. The tumor location in the spine may not align with the trial's focus on cerebral tumors, potentially affecting eligibility.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT01711580": {
+            "relevance_explanation": "The patient has a histologically proven high-grade glioma (anaplastic astrocytoma), which is one of the target conditions for the clinical trial. The trial focuses on re-irradiation of high-grade gliomas, and the patient has a history of radiation therapy. The patient's age and willingness to comply with the study protocol further support the relevance. However, there is no explicit mention of scheduled re-irradiation or the patient's current performance status, which are important factors for the trial.",
+            "relevance_score_R": 90.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including histologically proven high-grade glioma, age \u2265 18 years, and willingness to comply with the study protocol. However, the patient's WHO performance status and whether they are scheduled for re-irradiation are unknown. There are no explicit exclusion criteria that make the patient ineligible.",
+            "eligibility_score_E": 60.0
+        },
+        "NCT01781468": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on reducing cancer-related fatigue in patients with high-grade glioma, and the patient's condition falls under this category. The patient has completed radiation therapy, which aligns with the trial's inclusion criteria. However, the patient's note does not explicitly mention fatigue, which is the primary target of the trial.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "The patient meets several inclusion criteria: diagnosed with anaplastic astrocytoma, completed radiation therapy, underwent biopsy and treated with radiation and chemotherapy, provides informed consent, and as a male, the pregnancy test is not required. However, some criteria such as BFI score, ECOG performance status, ability to complete questionnaires, willingness to return for follow-up, and stable corticosteroid dose are unknown or not explicitly mentioned in the patient note.",
+            "eligibility_score_E": 50
+        },
+        "NCT03529708": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma with spinal cord compression, which is relevant to the clinical trial's focus on spinal cord compression and cauda equina syndrome. The patient's history of radiation therapy and chemotherapy aligns with the trial's use of stereotactic body radiotherapy (SBRT) as a potential treatment option. However, the patient's severe lower extremity weakness and uncertain motor function may impact eligibility.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "The patient meets the first inclusion criterion for metastatic malignancy. However, there is insufficient information to confirm the Bilsky radiologic score required for the second inclusion criterion. The patient's severe lower extremity weakness suggests a motor function below 3, making them ineligible for the second inclusion criterion. The patient is not a surgical candidate, which is positive, but there are uncertainties regarding previous radiotherapy and recent imaging. The patient is excluded due to the lack of recent imaging within the last 3 months.",
+            "eligibility_score_E": -50
+        },
+        "NCT00301418": {
+            "relevance_explanation": "The patient has a documented diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The tumor is recurrent and has been treated with radiation and chemotherapy, indicating a relapsed or refractory status. This aligns well with the trial's focus on recurrent/residual glioblastoma multiforme and anaplastic astrocytoma.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including age, diagnosis, and informed consent. However, there are multiple criteria where the patient's eligibility is uncertain or fails, such as lack of information on radiographic procedures timing, Karnofsky performance status, chemotherapy timing, hematologic parameters, and steroid stability. Additionally, the patient has significant medical conditions that may affect eligibility.",
+            "eligibility_score_E": 60
+        },
+        "NCT01103375": {
+            "relevance_explanation": "The patient has a histologically proven anaplastic astrocytoma, which is progressive after radiation therapy. This aligns with the clinical trial's focus on recurrent malignant glioma, making the patient highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the inclusion criteria for the trial, including having a progressive anaplastic astrocytoma after radiation therapy and providing informed consent. There are no apparent exclusion criteria that apply to this patient.",
+            "eligibility_score_E": 90
+        },
+        "NCT01996527": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is a high-grade glioma and matches the target conditions of the clinical trial. The trial focuses on MRI biomarkers for treatment response, and the patient has undergone relevant MRI scans and treatments, making them highly relevant to the study's objectives.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including providing informed consent and having a high-grade glioma diagnosis. However, the tumor's location in the spinal cord and the lack of specified lesion size make them ineligible for certain criteria. All exclusion criteria are met, but the spinal location and size issues lower the eligibility score.",
+            "eligibility_score_E": -30.0
+        },
+        "NCT04772456": {
+            "relevance_explanation": "The patient has an anaplastic astrocytoma of the spine, which is a type of glioma. However, the clinical trial specifically targets brain lesions in patients with infiltrating gliomas. While the patient's condition is related to gliomas, the location of the tumor (spine) does not align with the trial's focus on brain lesions. Therefore, the patient is somewhat relevant but not a perfect match for the trial.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient meets several eligibility criteria, such as age, ability to undergo MRI, and no mentioned exclusions. However, the patient does not meet the primary inclusion criterion requiring a brain lesion, as their tumor is located in the spine. This makes the patient ineligible for the trial.",
+            "eligibility_score_E": -60.0
+        },
+        "NCT00002814": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a type of brain and central nervous system tumor targeted by the clinical trial. However, the tumor is located in the spine rather than the brain, and there is no mention of central pathologic review at Dartmouth-Hitchcock Medical Center, which is required by the trial.",
+            "relevance_score_R": 60.0,
+            "eligibility_explanation": "The patient does not meet the disease characteristics as the tumor is located in the spine, not the brain, and there is no mention of central pathologic review at Dartmouth-Hitchcock Medical Center. Additionally, the patient has received prior therapy with CPT-11, which is a topoisomerase I inhibitor, making them ineligible for this criterion.",
+            "eligibility_score_E": -50.0
+        },
+        "NCT01849952": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a target condition of the clinical trial. The trial focuses on gliomas, and the patient's condition falls under this category. The tumor's location in the spine and its unresectable nature are noted, but the trial does not specify restrictions based on tumor location. The patient's history of treatments, including radiation and chemotherapy, aligns with the trial's focus on standard care and microRNA-10b expression in gliomas.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "The patient meets all inclusion criteria and does not violate any exclusion criteria. The patient has anaplastic astrocytoma, is over 18 years old, does not require tumor resection, has a glial origin tumor of WHO Grade III, has adequate tissue available, can provide informed consent, and has undergone standard treatments. Therefore, the patient is fully eligible for the trial.",
+            "eligibility_score_E": 95.0
+        },
+        "NCT00723827": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on temozolomide, a drug the patient has already been treated with, making his condition and treatment history directly relevant to the study's objectives.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the inclusion criteria as he has astrocytoma and is being treated with temozolomide. There are no mentioned exclusion criteria that would prevent his participation, making him eligible for the trial.",
+            "eligibility_score_E": 90
+        },
+        "NCT00458731": {
+            "relevance_explanation": "The patient has an unresectable anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on treating patients with metastatic or unresectable solid tumors, including anaplastic astrocytoma. The patient's condition aligns with the trial's objectives, making them highly relevant.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as having an unresectable anaplastic astrocytoma and providing informed consent. However, several inclusion criteria (e.g., performance status, blood counts, organ function) are unknown, and the patient does not meet criteria related to intracranial disease or stable brain metastasis. All exclusion criteria are met.",
+            "eligibility_score_E": 60
+        },
+        "NCT01624220": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, a type of spinal tumor, which aligns with the clinical trial's target condition. The patient's age and willingness to provide informed consent further support relevance. However, the trial's focus on SBRT and esophageal toxicity isn't directly addressed in the patient's history, slightly reducing relevance.",
+            "relevance_score_R": 85,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including age, cancer diagnosis, and informed consent. However, the patient does not specify undergoing single-fraction spinal SBRT, and has prior spinal irradiation, making them ineligible under exclusion criterion 4.",
+            "eligibility_score_E": -70
+        },
+        "NCT00005637": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of malignant glioma, which is the target condition for the clinical trial. The tumor is located in the spinal cord, which is part of the central nervous system, making it relevant to the trial's focus on brain and CNS tumors. The patient has undergone radiation therapy, which is a prerequisite for the trial, and has also received chemotherapy, which aligns with the trial's purpose of studying combination chemotherapy following radiation.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several key inclusion criteria such as having anaplastic astrocytoma, completing radiotherapy, and being over 18 years old. However, there are several criteria where the patient's eligibility is not met or information is missing, such as performance status, life expectancy, blood counts, liver and kidney function, pulmonary function, and prior treatments. The patient has had prior chemotherapy, which may affect eligibility depending on the trial's specific restrictions.",
+            "eligibility_score_E": 60
+        },
+        "NCT01499823": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of high-grade glioma, and has undergone concurrent chemoradiation (CCRT) with temozolomide, which is relevant to the clinical trial's focus on high-grade glioma patients who received CCRT. However, the tumor location in the spine may differ from the typical intracranial focus of the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the inclusion criterion as they have anaplastic astrocytoma and received CCRT with temozolomide. However, there is no information provided about the measurable enhancing portion in the post-CCRT MRI, which is required for eligibility. Therefore, the patient's eligibility cannot be fully confirmed.",
+            "eligibility_score_E": 0
+        },
+        "NCT02622620": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of high-grade glioma, and has undergone relevant treatments including CCRT with temozolomide, making the clinical trial highly relevant.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "While the patient meets the inclusion criterion for tumor type and treatment, there's no information on the measurable enhancing portion in post-CCRT MRI, leading to an uncertain eligibility.",
+            "eligibility_score_E": 0
+        },
+        "NCT00064363": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of high-grade glioma, which is the target condition for the clinical trial. The tumor is located in the spinal cord and has shown progression despite prior treatments, aligning with the trial's focus on recurrent high-grade gliomas. The patient's symptoms and treatment history are relevant to the trial's objectives.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several key inclusion criteria, including having a histologically confirmed high-grade glioma, evidence of tumor progression, and prior radiotherapy. However, some criteria such as performance status, hepatic function, and renal function are not explicitly mentioned, leading to 'Not Evaluable' assessments. Despite these uncertainties, the patient is eligible for most criteria.",
+            "eligibility_score_E": 70
+        },
+        "NCT01180816": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on treating newly diagnosed GBM and AA with super-selective intraarterial cerebral infusion of temozolomide. The patient's tumor is located in the T-L spine, which is a part of the central nervous system, and the patient has undergone radiation and chemotherapy, which aligns with the trial's background. Therefore, the patient is highly relevant to the clinical trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as age, diagnosis, and tumor confirmation. However, there are concerns regarding the patient's performance status due to severe lower extremity weakness and urinary retention, which may indicate a Karnofsky performance status below 60. Additionally, the patient's recent chemotherapy within two weeks and some missing lab parameters introduce uncertainty. The patient is also on steroids without PCP prophylaxis, which is required by the trial. Despite these issues, the patient can provide informed consent and meets other criteria like contraception and no exclusion factors related to pregnancy or significant medical conditions.",
+            "eligibility_score_E": -30
+        },
+        "NCT00704080": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma of the spine, which is a type of malignant glioma. The clinical trial is for adults with malignant gliomas, including anaplastic gliomas. However, the patient's tumor is located in the spine, not intracranially, which may affect eligibility but still shows relevance to the trial's target conditions.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as age, informed consent, and prior temozolomide treatment. However, the tumor location (spinal vs. intracranial) and progression on temozolomide make the patient ineligible. Other criteria like performance status and organ function are not confirmed, further affecting eligibility.",
+            "eligibility_score_E": -85.0
+        },
+        "NCT00705198": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of malignant glioma, and has been treated with temozolomide, which is the drug under investigation in the clinical trial. The trial focuses on patients with newly diagnosed or relapsed malignant glioma, which aligns with the patient's condition and treatment history.",
+            "relevance_score_R": 95,
+            "eligibility_explanation": "The patient meets the inclusion criterion as he has been treated with temozolomide for malignant glioma. There is no evidence of hypersensitivity to temozolomide or dacarbazine, and the patient is male, making pregnancy-related exclusion irrelevant. All criteria indicate eligibility.",
+            "eligibility_score_E": 95
+        },
+        "NCT00006474": {
+            "relevance_explanation": "The patient has a histologically confirmed anaplastic astrocytoma, which is a target condition for the clinical trial. The tumor is recurrent and progressive after radiotherapy, aligning with the trial's focus on recurrent or progressive anaplastic glioma. The patient's age and gender are appropriate for the trial, and the tumor's location and symptoms are relevant to the trial's objectives.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including histologically confirmed anaplastic astrocytoma, astrocytic tumor type, grade III tumor, recurrent or progressive disease after radiotherapy, evaluable residual disease, age over 18, and not being pregnant or nursing. However, there are uncertainties regarding performance status, granulocyte count, platelet count, SGOT, bilirubin, creatinine, BUN, recent chemotherapy timing, stable corticosteroid dose, and time since prior radiotherapy. These uncertainties affect full eligibility determination.",
+            "eligibility_score_E": 60
+        },
+        "NCT03370926": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on high-grade glioma patients undergoing radiotherapy, and the patient has undergone radiation therapy. However, the tumor is located in the spine, which may affect the relevance since the trial primarily focuses on brain tumors. Despite this, the patient's condition and treatment history align with the trial's objectives to some extent.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as being over 18 years old, having anaplastic astrocytoma, and providing informed consent. However, the patient does not meet several key inclusion criteria: the tumor is unresectable, there is no post-surgery MRI available, the WHO performance status is not provided, the patient has already undergone radiation therapy, and surgery was not performed within the required timeframe. The patient does not meet any exclusion criteria.",
+            "eligibility_score_E": -60
+        },
+        "NCT00643591": {
+            "relevance_explanation": "The patient has a histologically confirmed anaplastic astrocytoma, which is a high-grade glioma and matches the target condition of the clinical trial. The trial focuses on PET-CT imaging for high-grade gliomas, and the patient's condition and treatment history are relevant to the trial's objectives. However, the tumor is located in the spine, not the brain, which might affect the direct applicability of the trial's focus on cerebral astrocytomas.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as histologically confirmed anaplastic astrocytoma and age >18 years. However, several criteria are unclear or not met, such as WHO PFS, tumor enhancement, residual tumor on PET, and availability of tissue samples. The patient had prior chemotherapy, which may affect eligibility depending on the trial's specifics. Some exclusion criteria are met, but the patient's ability to tolerate treatment and other factors are unclear.",
+            "eligibility_score_E": 0
+        },
+        "NCT00354068": {
+            "relevance_explanation": "The patient has a confirmed diagnosis of anaplastic astrocytoma, which is a subtype of malignant glioma. The clinical trial is specifically targeting patients with malignant glioma, including anaplastic astrocytoma. The patient's history of radiation therapy and chemotherapy aligns with the trial's treatment approach. Therefore, the patient is highly relevant to the clinical trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several key inclusion criteria such as having histologically confirmed malignant glioma (anaplastic astrocytoma) and having undergone prior external-beam radiation therapy. However, some criteria are not evaluable due to missing information (e.g., Karnofsky performance status, blood counts). Additionally, the patient's hypertension may pose a concern if uncontrolled. Despite these uncertainties, the patient appears eligible for the trial based on the available information.",
+            "eligibility_score_E": 60
+        },
+        "NCT00068510": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is a type of malignant glioma. The clinical trial is specifically targeting malignant gliomas, making the patient highly relevant. The patient's history of radiation and chemotherapy further aligns with the trial's context, though the trial focuses on vaccine therapy rather than the patient's current treatments.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including histologically confirmed anaplastic astrocytoma, age over 18, and measurable disease. However, the patient does not meet the criterion for newly diagnosed disease and has undergone prior treatments, which may affect eligibility. Additionally, the patient is on high-dose steroids, which may exclude him from participation. Some eligibility criteria are unknown due to missing information.",
+            "eligibility_score_E": 40.0
+        },
+        "NCT01905228": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a solid neoplasm, and the clinical trial is targeting solid tumors including glioblastoma. The patient's condition is advanced and unresectable, aligning with the trial's focus on metastatic or unresectable advanced solid neoplasms. Therefore, the patient is highly relevant to the clinical trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria such as histological evidence of a solid neoplasm, having Grade III anaplastic astrocytoma, prior therapy including radiation and chemotherapy, and providing informed consent. However, the patient does not meet some criteria like having measurable lesions, being ambulatory with an ECOG Performance Score of 0 or 1, and adequate bone marrow reserve. Additionally, the patient is excluded due to symptomatic CNS metastases with neurological instability.",
+            "eligibility_score_E": -45
+        },
+        "NCT00003471": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a high-grade tumor, whereas the clinical trial targets low-grade astrocytoma. However, the patient has undergone multiple prior therapies, which aligns with the trial's focus on recurrent/progressive cases. The tumor location in the spine is relevant as the trial does not exclude spinal tumors. Thus, there is partial relevance.",
+            "relevance_score_R": 30,
+            "eligibility_explanation": "The patient is ineligible for the trial primarily because the tumor type (anaplastic astrocytoma) does not match the trial's target of low-grade astrocytoma. Additionally, several inclusion criteria such as tumor measurement, performance status, and recent therapy timing are not met. However, the patient meets some criteria like age and prior treatments.",
+            "eligibility_score_E": -20
+        },
+        "NCT00612001": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a type of malignant glioma targeted by the clinical trial. The tumor is located in the spinal cord, which is part of the central nervous system, aligning with the trial's focus. The patient has undergone treatments such as radiation and chemotherapy, indicating a need for further therapeutic options. These factors make the patient highly relevant to the trial.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, including having anaplastic astrocytoma and recurrent disease. However, the patient fails some inclusion criteria, such as having unresectable disease and unknown HLA-A*201 status. Additionally, the patient is excluded due to recent chemotherapy, radiation, and corticosteroid use. These factors make the patient ineligible for the trial.",
+            "eligibility_score_E": -60
+        },
+        "NCT03561207": {
+            "relevance_explanation": "The patient has a diagnosis of anaplastic astrocytoma, which is one of the target conditions for the clinical trial. The trial focuses on advanced cancers, including high-grade gliomas like anaplastic astrocytoma. The patient's history of radiation and chemotherapy aligns with the trial's aim to assess drug response in patients with advanced cancers. The patient's condition and treatment history make him highly relevant to the trial's objectives.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets all the inclusion criteria: he is over 18 years old, has a diagnosis of anaplastic astrocytoma (a high-grade glioma), underwent a biopsy, is receiving systemic therapy, and provided informed consent. Although his ECOG performance status is not specified, there is no information suggesting he would be ineligible. He also meets all exclusion criteria: he is able to provide consent, has had a biopsy, is willing to have the assay performed, has no active brain metastases, is willing to receive chemotherapy, and has no coincidental medical conditions that would preclude participation.",
+            "eligibility_score_E": 90
+        },
+        "NCT02119338": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, a type of glioma, which is recurrent. The clinical trial is focused on recurrent glioma, making the patient highly relevant. The patient's age of 45 also meets the trial's age criterion. However, some eligibility criteria such as bone marrow function and hepatic function are not provided in the patient note, introducing some uncertainty.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets the inclusion criteria for presumed recurrent glioma and age > 18 years. However, the patient's bone marrow function is not provided, making it unclear if they meet that inclusion criterion. Additionally, some exclusion criteria such as hepatic dysfunction and serum creatinine levels are not provided, leading to uncertainty in eligibility. Despite these unknowns, the patient is eligible for some criteria and not excluded based on the provided information.",
+            "eligibility_score_E": 50
+        },
+        "NCT00276783": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of malignant glioma, which is one of the target conditions for the clinical trial. The tumor is unresectable and has progressed after radiation and chemotherapy, aligning with the trial's focus on recurrent cases. The patient's condition is directly relevant to the trial's objectives.",
+            "relevance_score_R": 95.0,
+            "eligibility_explanation": "The patient meets most inclusion criteria, including diagnosis, prior treatments, and tumor progression. However, some criteria like performance score and lab values are unknown, leading to partial eligibility.",
+            "eligibility_score_E": 85.0
+        },
+        "NCT01682187": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a type of malignant glioma. The clinical trial is specifically targeting recurrent malignant glioma, making the patient's condition highly relevant to the trial. The patient has undergone treatments such as radiation and chemotherapy, which aligns with the trial's focus on recurrent cases. However, the patient's tumor is unresectable, which may affect the trial's eligibility criteria but does not negate the overall relevance.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as providing informed consent and having histological evidence of recurrent anaplastic astrocytoma. However, there is no information on measurable disease, organ function, performance status, or prior therapy discontinuation, which are key eligibility criteria. The patient is male, making some criteria inapplicable, but other criteria are not met due to lack of information. The patient does not meet all inclusion criteria but is not explicitly excluded by any exclusion criteria.",
+            "eligibility_score_E": 30
+        },
+        "NCT01577966": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a type of brain tumor and aligns with the clinical trial's target condition of glioma. The trial focuses on the effect of sulfasalazine on glutamate levels in glioma patients, making the patient's condition relevant to the study's purpose. The patient's history of radiation and chemotherapy further supports the relevance, as these are common treatments for glioma.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria, such as age and diagnosis, but lacks information on corticosteroid regimen stability, performance status, and lab values. These missing details make it difficult to confirm full eligibility. However, the patient is eligible for some criteria and does not have any exclusion criteria that apply.",
+            "eligibility_score_E": 40.0
+        },
+        "NCT00631137": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, which is a type of high-grade glioma, and is receiving high-dose steroids, which aligns with the trial's focus on preventing steroid-induced weakness in men with glioma. However, the tumor location in the spine and unclear status of radiotherapy completion introduce some uncertainty.",
+            "relevance_score_R": 85.0,
+            "eligibility_explanation": "The patient meets some inclusion criteria such as having anaplastic astrocytoma and no history of prostate or breast cancer. However, several criteria like the status of steroid dose, radiotherapy completion, and testosterone levels are unknown, leading to partial eligibility.",
+            "eligibility_score_E": 40.0
+        },
+        "NCT00613093": {
+            "relevance_explanation": "The patient has a history of anaplastic astrocytoma, which is a type of malignant glioma, making them relevant to the clinical trial targeting glioblastoma multiforme and anaplastic glioma. The patient's tumor is recurrent and progressive, which aligns with the trial's focus on temozolomide-resistant cases. The tumor's location and the patient's age also support relevance.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as having recurrent/progressive malignant glioma, being over 18, having measurable disease, and providing informed consent. However, there's no evidence of temozolomide resistance, which is a key inclusion criterion. Additionally, several other criteria like performance score, lab values, and treatment timing are unknown, leading to an uncertain eligibility status.",
+            "eligibility_score_E": 0
+        },
+        "NCT01445119": {
+            "relevance_explanation": "The patient has anaplastic astrocytoma, a type of malignant glioma, which is the target condition for the clinical trial. The tumor is progressive, and the patient has undergone standard treatments like radiation and chemotherapy, making the trial relevant for potential enrollment.",
+            "relevance_score_R": 90,
+            "eligibility_explanation": "The patient meets several inclusion criteria, such as having a malignant glioma and evidence of tumor progression. However, the patient has received prior platinum-based therapy (carboplatin), which is an exclusion criterion. Additionally, some criteria like Karnofsky performance status and recent imaging details are uncertain, but the exclusion due to prior platinum-based therapy makes the patient ineligible.",
+            "eligibility_score_E": -30
+        }
+    }
+}

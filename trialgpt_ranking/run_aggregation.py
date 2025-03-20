@@ -14,65 +14,102 @@ import time
 from TrialGPT import trialgpt_aggregation
 
 if __name__ == "__main__":
-	corpus = sys.argv[1] 
-	model = sys.argv[2]
+    if len(sys.argv) != 4:
+        print("Usage: python run_aggregation.py <corpus> <model> <matching_results_path>")
+        sys.exit(1)
 
-	# the path of the matching results
-	matching_results_path = sys.argv[3]
-	results = json.load(open(matching_results_path))
+    corpus = sys.argv[1]
+    model = sys.argv[2]
+    matching_results_path = sys.argv[3]
 
-	# loading the trial2info dict
-	trial2info = json.load(open("dataset/trial_info.json"))
-	
-	# loading the patient info
-	_, queries, _ = GenericDataLoader(data_folder=f"dataset/{corpus}/").load(split="test")
-	
-	# output file path
-	output_path = f"results/aggregation_results_{corpus}_{model}.json"
+    print(f"Loading matching results from: {matching_results_path}")
 
-	if os.path.exists(output_path):
-		output = json.load(open(output_path))
-	else:
-		output = {}
+    try:
+        results = json.load(open(matching_results_path))
+    except Exception as e:
+        print(f"Error loading matching results: {e}")
+        sys.exit(1)
 
-	# patient-level
-	for patient_id, info in results.items():
-		# get the patient note
-		patient = queries[patient_id]
-		sents = sent_tokenize(patient)
-		sents.append("The patient will provide informed consent, and will comply with the trial protocol without any practical issues.")
-		sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents)]
-		patient = "\n".join(sents)
+    trial_info_path = "dataset/trial_info.json"
+    if not os.path.exists(trial_info_path):
+        print(f"Error: Trial info file {trial_info_path} not found!")
+        sys.exit(1)
 
-		if patient_id not in output:
-			output[patient_id] = {}
-		
-		# label-level, 3 label / patient
-		for label, trials in info.items():
-				
-			# trial-level
-			for trial_id, trial_results in trials.items():
-				# already cached results
-				if trial_id in output[patient_id]:
-					continue
+    print(f"Loading trial info from: {trial_info_path}")
+    
+    try:
+        trial2info = json.load(open(trial_info_path))
+    except Exception as e:
+        print(f"Error loading trial info: {e}")
+        sys.exit(1)
 
-				if type(trial_results) is not dict:
-					output[patient_id][trial_id] = "matching result error"
+    print(f"Loading patient queries from: dataset/{corpus}/")
 
-					with open(output_path, "w") as f:
-						json.dump(output, f, indent=4)
+    try:
+        _, queries, _ = GenericDataLoader(data_folder=f"dataset/{corpus}/").load(split="test")
+    except Exception as e:
+        print(f"Error loading patient queries: {e}")
+        sys.exit(1)
 
-					continue
+    output_path = f"results/aggregation_results_{corpus}_{model}.json"
+    os.makedirs("results", exist_ok=True)  # Ensure output directory exists
 
-				# specific trial information
-				trial_info = trial2info[trial_id]	
+    print(f"Output will be saved to: {output_path}")
 
-				try:
-					result = trialgpt_aggregation(patient, trial_results, trial_info, model)
-					output[patient_id][trial_id] = result 
+    if os.path.exists(output_path):
+        try:
+            output = json.load(open(output_path))
+        except Exception as e:
+            print(f"Error loading existing output file: {e}")
+            output = {}
+    else:
+        output = {}
 
-					with open(output_path, "w") as f:
-						json.dump(output, f, indent=4)
+    # Start aggregation
+    for patient_id, info in results.items():
+        if patient_id not in queries:
+            print(f"Warning: Patient {patient_id} not found in queries. Skipping.")
+            continue
 
-				except:
-					continue
+        patient = queries[patient_id]
+        sents = sent_tokenize(patient)
+        sents.append("The patient will provide informed consent and comply with the trial protocol.")
+        sents = [f"{idx}. {sent}" for idx, sent in enumerate(sents)]
+        patient = "\n".join(sents)
+
+        if patient_id not in output:
+            output[patient_id] = {}
+
+        for label, trials in info.items():
+            for trial_id, trial_results in trials.items():
+                if trial_id in output[patient_id]:  # Skip if already processed
+                    continue
+
+                if not isinstance(trial_results, dict):
+                    print(f"Skipping {patient_id} - {trial_id}: Invalid format")
+                    output[patient_id][trial_id] = "matching result error"
+                    continue
+
+                if trial_id not in trial2info:
+                    print(f"Warning: Trial {trial_id} info not found. Skipping.")
+                    continue
+
+                trial_info = trial2info[trial_id]
+
+                print(f"Processing Patient: {patient_id}, Trial: {trial_id}")
+
+                try:
+                    result = trialgpt_aggregation(patient, trial_results, trial_info, model)
+                    output[patient_id][trial_id] = result
+
+                    # Save results after every trial processing
+                    with open(output_path, "w") as f:
+                        json.dump(output, f, indent=4)
+
+                    print(f"Saved result for Patient: {patient_id}, Trial: {trial_id}")
+
+                except Exception as e:
+                    print(f"Error processing Patient {patient_id}, Trial {trial_id}: {e}")
+                    continue
+
+    print(f"Aggregation complete! Results saved at {output_path}")
