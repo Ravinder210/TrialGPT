@@ -1,5 +1,7 @@
 beir==2.0.0
-
+fastapi==0.110.2
+uvicorn==0.29.0
+pydantic==2.7.1
 nltk==3.8.1
 numpy==1.26.4
 openai==1.30.5
