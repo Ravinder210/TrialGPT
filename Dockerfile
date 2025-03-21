@@ -1,17 +1,17 @@
-# Use official Python image
-FROM python:3.11
+# Use Python 3.9 as base image
+FROM python:3.9
 
 # Set working directory
 WORKDIR /app
 
-# Copy only essential files
-COPY backend.py requirements.txt /app/
+# Copy everything to the container
+COPY . /app
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt uvicorn
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose the port for FastAPI
+# Expose port 8000
 EXPOSE 8000
 
-# Run FastAPI server
-CMD ["sh", "-c", "uvicorn backend:app --host 0.0.0.0 --port ${PORT:-8000}"]
+# Command to run FastAPI server
+CMD ["uvicorn", "backend:app", "--host", "0.0.0.0", "--port", "8000"]
